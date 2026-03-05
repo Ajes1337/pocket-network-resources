@@ -758,7 +758,7 @@
 - service_id: arb-one
   # Block time: ~0.25s | Source: chainspect.app, arbiscan.io
   # Formula: 300s / 0.25s = 1200 blocks for 5 minutes
-  sync_allowance: 1200
+  sync_allowance: 20
   check_interval: 10s
   enabled: true
   checks:
